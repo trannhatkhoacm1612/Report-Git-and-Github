@@ -74,19 +74,19 @@ Tiếp theo ta sẽ xem trạng thái hiện tại của repo, tất nhiên là 
 
 Đến đây khi bạn muốn lưu lại trạng thái mình đã làm trước tiên ta sẽ dùng lệnh **git add** để chuyển một file bình thường vào trong staging area (nơi chờ để commit), sau đó dùng lệnh **git commit -m "message"** để lưu trạng thái:
 
-![git add and status](img\gitadd1.png)
+![git add and status](img/gitadd1.png)
 
-![git commit](img\gitcommit1.png)
+![git commit](img/gitcommit1.png)
 
 Sau đó chúng ta hãy thử thay đổi một vài thứ trong file **index.html** để xem thử điều gì xảy ra:
 
-![change code](img\indexchange1.png)
+![change code](img/indexchange1.png)
 
-![compare code](img\compare1.png)
+![compare code](img/compare1.png)
 
 Như đã thấy chúng ta dễ dàng biết được những dòng code bị thay đổi. Hãy tiếp tục làm lại bước trên và xem sự thay đổi một lần nữa:
 
-![compare code](img\compare2.png)
+![compare code](img/compare2.png)
 
 Tổng kết lại ta đã có 2 lần commit, dễ thấy ta có thể xem và so sánh code của lần vừa commit với code đang làm. Vậy làm sao để ta biết được code của những lần commit khác trong quá khứ? Ta sẽ dùng lệnh **git log** để xem lại lịch sử(bao gồm thông tin người đã commit, thời gian,...) các lần commit từ gần nhất đến xa nhất 
 
@@ -94,27 +94,27 @@ Tổng kết lại ta đã có 2 lần commit, dễ thấy ta có thể xem và 
 
 Và ta sẽ thử xem lại code của lần đầu tiên commit bằng lệnh **git checkout** <**commit-hash**> (truyền vào mã băm của lần commit đó), khi đó file chính **index.html** sẽ quay trở về trạng thái lần đầu tiên đã commit :
 
-![first commit code](img\indexcommit1.png)
+![first commit code](img/indexcommit1.png)
 
-![git checkout](img\gitcheckout1.png)
+![git checkout](img/gitcheckout1.png)
 
 ## **III. Demo Git với Github**
 
 Đầu tiên hãy thử tạo git repo trên github, sau khi tạo xong một repo trên git và muốn kết nối repo trên máy của bạn với repo vừa tạo thì ta sẽ làm theo chỉ dẫn của Github:
  
-![new re github](img\repogithub.png)
+![new re github](img/repogithub.png)
 
-![f5](img\f5.png)
+![f5](img/f5.png)
 
 Ta cũng có thể xem lại chi tiết các lần commit ở trên đó, tiếp theo ta sẽ đi đến **branch**, có thể hiểu nôm na là thay ta sẽ rẽ dự án đang phát triển qua một nhánh khác, những thao tác như commit, ... ở trên nhánh này sẽ không ảnh hưởng đến các nhánh khác.
 
 Dùng lệnh **git branch** <**branch-name**> để tạo branch mới dựa trên nhánh chính, sao đó hãy thử commit và push code lên github, khi đó những commit đã có ở nhánh chính cũng sẽ xuất hiện ở nhánh này:
 
-![new branch](img\brachnew.png)
+![new branch](img/brachnew.png)
 
 ![change in new branch](img/branchchange.png)
 
-![2 branch](img\new.png)
+![2 branch](img/new.png)
 
 Và nó đã xuất hiện trên Github với các commit cũ của nhánh đầu tiên.
 
