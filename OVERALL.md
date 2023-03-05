@@ -92,7 +92,7 @@ Như đã thấy chúng ta dễ dàng biết được những dòng code bị th
 
 Tổng kết lại ta đã có 2 lần commit, dễ thấy ta có thể xem và so sánh code của lần vừa commit với code đang làm. Vậy làm sao để ta biết được code của những lần commit khác trong quá khứ? Ta sẽ dùng lệnh **git log** để xem lại lịch sử(bao gồm thông tin người đã commit, thời gian,...) các lần commit từ gần nhất đến xa nhất 
 
-![git log](img\gitlog1.png)
+![git log](img/gitlog1.png)
 
 Và ta sẽ thử xem lại code của lần đầu tiên commit bằng lệnh **git checkout** <**commit-hash**> (truyền vào mã băm của lần commit đó), khi đó file chính **index.html** sẽ quay trở về trạng thái lần đầu tiên đã commit :
 
