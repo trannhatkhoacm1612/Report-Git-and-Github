@@ -68,11 +68,11 @@ Bạn có thể kiểm tra xem máy bạn đã được cài đặt git hay chư
 
 Đầu tiên để tạo một **repo** trên máy của bạn, bạn có thể trỏ tới thư mục bằng lệnh <span style="color: #99FFFF">cd</span> mình đang làm việc hay nếu đó đang ở thư mục đó rồi thì hãy sử dụng câu lệnh <span style="color: #99FFFF">git init</span> và nó sẽ trả về cho bạn kết quả như hình sau để thông báo repo đã được tạo trên máy của bạn:
 
-![gitinit](img\gitinit.png)
+![gitinit](img/gitinit.png)
 
 Tiếp theo ta sẽ xem trạng thái hiện tại của repo, tất nhiên là sẽ chưa có file nào đang trong mục staging để chờ commit:
 
-![gitstatus](img\gitst1.png)
+![gitstatus](img/gitst1.png)
 
 Đến đây khi bạn muốn lưu lại trạng thái mình đã làm trước tiên ta sẽ dùng lệnh **git add** để chuyển một file bình thường vào trong staging area (nơi chờ để commit), sau đó dùng lệnh **git commit -m "message"** để lưu trạng thái:
 
